@@ -1,0 +1,119 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-07 15:05+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: child_health/models.py:51 user_profile/models.py:13
+msgid "Male"
+msgstr "مرد"
+
+#: child_health/models.py:52 user_profile/models.py:14
+msgid "Female"
+msgstr "زن"
+
+#: events/constants.py:6
+msgid "Prenatal Checkup"
+msgstr "معاینه قبل از ولادت"
+
+#: events/constants.py:7
+msgid "Vaccination"
+msgstr "واکسین ها"
+
+#: events/models.py:19 surveys/models.py:17
+msgid "English"
+msgstr "انگلیسی"
+
+#: events/models.py:20 surveys/models.py:18
+msgid "Turkish"
+msgstr "ترکی"
+
+#: events/models.py:21 surveys/models.py:19
+msgid "Arabic"
+msgstr "عربی"
+
+#: events/models.py:22
+msgid "Pashto"
+msgstr ""
+
+#: events/models.py:23
+msgid "Dari"
+msgstr ""
+
+#: events/models.py:34 events/models.py:68 surveys/models.py:35
+#: surveys/models.py:68
+msgid "No spaces allowed"
+msgstr "اجازه فاصله نیست"
+
+#: events/models.py:39 events/models.py:73 surveys/models.py:40
+#: surveys/models.py:73
+msgid "No UPPERCASE allowed"
+msgstr "به حروف کلان اجازه نیست"
+
+#: events/models.py:44 events/models.py:78 surveys/models.py:45
+#: surveys/models.py:78
+msgid "Only lowercase character, number, . and _ allowed"
+msgstr "تنها حروف کوچک، شماره،  . و_اجازه است"
+
+#: otp_auth/utils.py:23
+msgid "The text you entered is not a valid phone number"
+msgstr "متن را که شما وارد نموده اید شماره تیلیفون نیست"
+
+#: otp_auth/utils.py:31
+msgid ""
+"The phone number you entered has an invalid country code. Please select the "
+"right country."
+msgstr ""
+"شماره تیلفون را که شما وارد نموده اید، کود کشوری آن اشتباه میباشد،  لطفا "
+"کشور درست را انتخاب نمایید."
+
+#: otp_auth/utils.py:33
+msgid "The text you entered is not a correct phone number. Please check again."
+msgstr "متن را که شما وارد نموده اید شماره تیلیفون نیست"
+
+#: otp_auth/utils.py:35
+msgid "The phone number you entered is too short."
+msgstr "شماره تیلفون را که وارد نموده اید،  بسیار کوتاه میباشد. "
+
+#: otp_auth/utils.py:37
+msgid "The phone number you entered is too long."
+msgstr "شماره تیلفون را که وارد نموده اید،  بسیار طولانی میباشد. "
+
+#: otp_auth/views.py:91
+#, python-format
+msgid ""
+"Enter code %(secret)s to login to HERA app. Do not share this code with "
+"anyone."
+msgstr ""
+"کد %(secret)s را برای ورود به برنامه Hera وارد کنید. این کد را با کسی به "
+"اشتراک نگذارید."
+
+#: surveys/models.py:23
+msgid "Multiple Choice"
+msgstr "چند گزینه "
+
+#: surveys/models.py:24
+msgid "Text"
+msgstr "متن"
+
+#: user_profile/models.py:62
+#, python-format
+msgid ""
+"Enter code %(secret)s to edit your phone number on HERA app. Do not share "
+"this code with anyone."
+msgstr ""
+"برای اصلاح کردن شماره تیلفون تان کود %(secret)s تان را وارد کنید، این کود را "
+"با هیچ شخص شریک نسازید."

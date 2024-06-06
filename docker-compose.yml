@@ -1,0 +1,49 @@
+version: "3.9"
+
+volumes:
+  heradb-vol:
+  heramq-vol:
+
+
+services:
+  db:
+    image: postgres:13.3-buster
+    volumes:
+      - heradb-vol:/var/lib/postgresql/data
+    environment:
+      POSTGRES_DB: hr
+      POSTGRES_USER: us
+      POSTGRES_PASSWORD: pwd
+      PGUSER: us
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready --username=us --dbname=db"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+# mq is not used at the moment since django-celery is not needed
+#  mq:
+#    image: rabbitmq:latest
+#    volumes:
+#      - heramq-vol:/var/lib/rabbitmq
+#    ports:
+#      - "15672:15672"
+#      - "5672:5672"
+
+  web:
+    build:
+      context: ./web
+      args:
+        - PIPFILE_REVISION=1
+    volumes:
+      - ./web:/code
+    ports:
+      - "8000:8000"
+    environment:
+      HERA_DB_SECRET: '{ "host": "db", "port": "5432", "dbname": "hr", "username": "us", "password": "pwd", "dbClusterIdentifier": "na", "engine": "na"}'
+      HERA_DJANGO_SECRET_KEY: '123'
+    depends_on:
+      db:
+        condition: service_healthy

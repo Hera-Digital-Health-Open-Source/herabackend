@@ -1,0 +1,38 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "==4.0.4"
+psycopg2-binary = "*"
+djangorestframework = "*"
+markdown = "*"
+django-filter = "*"
+messagebird = "*"
+phonenumbers = "*"
+drf-spectacular = "*"
+python-liquid = "*"
+django-better-admin-arrayfield = "*"
+django-cors-headers = "*"
+onesignal-sdk = "*"
+numpy = "*"
+uvicorn = "*"
+gunicorn = "*"
+whitenoise = "*"
+brotli = "*"
+django-two-factor-auth = {extras = ["phonenumbers"], version = "*"}
+django-google-maps = "*"
+sentry-sdk = "*"
+google-cloud-translate = "*"
+twilio = "*"
+django-admin-rangefilter = "*"
+google-cloud-texttospeech = "*"
+openai = "*"
+scipy = "*"
+
+[dev-packages]
+pip-licenses = "*"
+
+[requires]
+python_version = "3.10.1"

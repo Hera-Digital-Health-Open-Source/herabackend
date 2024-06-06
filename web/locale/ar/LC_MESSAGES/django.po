@@ -1,0 +1,108 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-11 15:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: child_health/models.py:51 user_profile/models.py:13
+msgid "Male"
+msgstr "ذكر "
+
+#: child_health/models.py:52 user_profile/models.py:14
+msgid "Female"
+msgstr "أنثى"
+
+#: events/constants.py:6
+msgid "Prenatal Checkup"
+msgstr "فحص ما قبل الولادة"
+
+#: events/constants.py:7
+msgid "Vaccination"
+msgstr "اللقاحات"
+
+#: events/models.py:19
+msgid "English"
+msgstr "الأنكليزية"
+
+#: events/models.py:20
+msgid "Turkish"
+msgstr "التركية"
+
+#: events/models.py:21
+msgid "Arabic"
+msgstr "العربية"
+
+#: events/models.py:32 events/models.py:66
+msgid "No spaces allowed"
+msgstr "لا يسمح بالمسافات"
+
+#: events/models.py:37 events/models.py:71
+msgid "No UPPERCASE allowed"
+msgstr "لا يسمح باستخدام الأحرف الكبيرة"
+
+#: events/models.py:42 events/models.py:76
+msgid "Only lowercase character, number, . and _ allowed"
+msgstr "فقط الأحرف الصغيرة ، الأرقام ،. و _ المسموح به"
+
+#: otp_auth/utils.py:23
+msgid "The text you entered is not a valid phone number"
+msgstr "النص الذي أدخلته ليس رقم هاتف صالح"
+
+#: otp_auth/utils.py:31
+msgid ""
+"The phone number you entered has an invalid country code. Please select the "
+"right country."
+msgstr "رقم الهاتف الذي أدخلته يحتوي على رمز بلد غير صالح. يرجى تحديد الدولة الصحيحة"
+
+#: otp_auth/utils.py:33
+msgid "The text you entered is not a correct phone number. Please check again."
+msgstr "النص الذي أدخلته ليس رقم هاتف صالح"
+
+#: otp_auth/utils.py:35
+msgid "The phone number you entered is too short."
+msgstr "رقم الهاتف الذي أدخلته قصير جدًا."
+
+#: otp_auth/utils.py:37
+msgid "The phone number you entered is too long."
+msgstr "رقم الهاتف الذي أدخلته طويل جدًا."
+
+#: otp_auth/views.py:91
+#, python-format
+msgid ""
+"Enter code %(secret)s to login to HERA app. Do not share this code with "
+"anyone."
+msgstr "أدخل الرمز  السري %(secret)s لتسجيل الدخول إلى تطبيق هيرا. لا تشارك هذا الرمز مع أي شخص."
+
+#: surveys/models.py:9
+msgid "Multiple Choice"
+msgstr "متعدد الخيارات"
+
+#: surveys/models.py:10
+msgid "Single Choice"
+msgstr "خيار واحد"
+
+#: surveys/models.py:11
+msgid "Text"
+msgstr "النص"
+
+#: user_profile/models.py:60
+#, python-format
+msgid ""
+"Enter code %(secret)s to edit your phone number on HERA app. Do not share "
+"this code with anyone."
+msgstr "أدخل الرمز %(secret)s لتعديل رقم هاتفك في تطبيق هيرا. لا تشارك هذا الرمز مع أي شخص."
